@@ -1,0 +1,18 @@
+{
+  "name": "@bytriska/playground.config-resolver",
+  "type": "module",
+  "version": "0.0.0",
+  "packageManager": "pnpm@10.27.0",
+  "description": "Resolve config file",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "start": "node dist/index.esm.js"
+  },
+  "dependencies": {
+    "@bytriska/priority-find-up": "^1.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.1"
+  }
+}

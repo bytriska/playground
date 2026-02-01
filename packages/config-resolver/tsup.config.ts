@@ -9,9 +9,4 @@ export default defineConfig({
   shims: true,
   sourcemap: true,
   minify: true,
-  outExtension({ format }) {
-    return {
-      js: `.${format}.js`,
-    }
-  },
 })
